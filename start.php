@@ -186,7 +186,7 @@ function mobilize_setup_handler() {
 			elgg_register_menu_item('site', array(
 				'name' => 'messages',
 				'href' => 'messages/inbox/' . elgg_get_logged_in_user_entity()->username,
-				'text' => elgg_echo('messages') . $text,
+				'text' => elgg_echo('messages') . ' (' . $text . ')',
 			));
 		}
 	}	
